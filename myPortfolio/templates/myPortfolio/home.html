@@ -39,6 +39,25 @@ body {
   position: relative;
   overflow: hidden;
 }
+.intro {
+  width: 700px;
+  min-height: 100px;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+.links {
+  width: 700px;
+  min-height: 100px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
 .card:after {
   content: '';
   display: block;
@@ -97,6 +116,14 @@ body {
 .myCard{
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
 }
+.myTransition {
+  width: 80%;
+  transition: width 1s, height 2s;
+}
+
+.myTransition:hover {
+  width: 100%;
+}
 
 @keyframes animatop {
   0% {
@@ -132,44 +159,114 @@ body {
 
 </style>
 <div class="content">
+  <div class="intro">
+    <div class="firstinfo">
+      <div class="profileinfo">
+        <table width="100%" height="100%" bgcolor="#5f788a">
+          <tr class="myTransition">
+            <td><h1 style="color:white"><b>Hi There!!!</b></h1>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="badgescard">
+    <span class="devicons devicons-django">
+    </span>
+    <span class="devicons devicons-python">
+    </span>
+    <span class="devicons devicons-codepen">
+    </span>
+    <span class="devicons devicons-javascript_badge">
+    </span>
+    <span class="devicons devicons-gulp">
+    </span>
+    <span class="devicons devicons-angular">
+    </span>
+    <span class="devicons devicons-sass">
+    </span>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div class="content">
   <div class="card">
     <div class="firstinfo"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/mrvanz/128.jpg"/>
       <div class="profileinfo">
-        <h1>Ritik Raj</h1>
-        <h3>Sophomore at IIT KGP</h3>
+        <h1>I am Ritik Raj</h1>
+        <h3>A sophomore at IIT KGP</h3>
         <p class="bio">I am a competitive programmer and a web developer enthusiast. I love to code and never leave any opportunity to learn something new.</p>
       </div>
     </div>
   </div>
-  <div class="badgescard"> <span class="devicons devicons-django"></span><span class="devicons devicons-python"> </span><span class="devicons devicons-codepen"></span><span class="devicons devicons-javascript_badge"></span><span class="devicons devicons-gulp"></span><span class="devicons devicons-angular"></span><span class="devicons devicons-sass"> </span></div>
+  <div class="badgescard">
+    <span class="devicons devicons-django">
+    </span>
+    <span class="devicons devicons-python">
+    </span>
+    <span class="devicons devicons-codepen">
+    </span>
+    <span class="devicons devicons-javascript_badge">
+    </span>
+    <span class="devicons devicons-gulp">
+    </span>
+    <span class="devicons devicons-angular">
+    </span>
+    <span class="devicons devicons-sass">
+    </span>
+  </div>
 </div>
-
-
 <br>
 <br>
 <br>
-<div class="myCard">
-<table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#5f788a">
-  <tr>
-    <td>
-      <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
-        <tr>
-           <td width="13%" valign="top">
-             <a href="https://www.linkedin.com/in/ritik-raj-53025a200/" style="text-decoration:none"><b><p style="color:white">LinkedIn</p></b>
-             </a>
-           </td>
-            <td width="13%" valign="top">
-             <a href="https://www.facebook.com/ritikraj26" style="text-decoration:none"><b><p style="color:white">Facebook</p></b>
-             </a>
-           </td>
-          <td width="13%" valign="top">
-             <a href="https://twitter.com/__ritik_" style="text-decoration:none"><b><p style="color:white">Twitter</p></b>
-             </a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
- </table>
- </div>
+<div class="content">
+  <div class="intro">
+    <div class="firstinfo">
+      <div class="profileinfo">
+        <div class="myCard">
+          <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#5f788a">
+            <tr>
+              <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                  <tr>
+                    <td width="13%" valign="top">
+                      <a href="https://www.linkedin.com/in/ritik-raj-53025a200/" style="text-decoration:none"><b><p style="color:white">LinkedIn</p></b>
+                      </a>
+                    </td>
+                    <td width="13%" valign="top">
+                      <a href="https://www.facebook.com/ritikraj26" style="text-decoration:none"><b><p style="color:white">Facebook</p></b>
+                      </a>
+                    </td>
+                    <td width="13%" valign="top">
+                      <a href="https://twitter.com/__ritik_" style="text-decoration:none"><b><p style="color:white">Twitter</p></b>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="badgescard">
+  <span class="devicons devicons-django">
+  </span>
+  <span class="devicons devicons-python">
+  </span>
+  <span class="devicons devicons-codepen">
+  </span>
+  <span class="devicons devicons-javascript_badge">
+  </span>
+  <span class="devicons devicons-gulp">
+  </span>
+  <span class="devicons devicons-angular">
+  </span>
+  <span class="devicons devicons-sass">
+  </span>
+</div>
 {% endblock content %}

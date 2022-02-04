@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-  width: 700px;
+  width: 100%;
   min-height: 100px;
   padding: 20px;
   border-radius: 3px;
@@ -40,7 +40,7 @@ body {
   overflow: hidden;
 }
 .intro {
-  width: 700px;
+  width: 100%;
   min-height: 100px;
   padding: 20px;
   border-radius: 3px;
@@ -50,7 +50,7 @@ body {
   overflow: hidden;
 }
 .links {
-  width: 700px;
+  width: 100%;
   min-height: 100px;
   padding: 20px;
   background-color: white;
@@ -72,7 +72,7 @@ body {
   padding: 10px 20px;
   border-radius: 3px;
   background-color: #ECECEC;
-  width: 680px;
+  width: 100%;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: -1;
@@ -164,7 +164,7 @@ body {
       <div class="profileinfo">
         <table width="100%" height="100%" bgcolor="#5f788a">
           <tr class="myTransition">
-            <td><h1 style="color:white"><b>Hi There!!!</b></h1>
+            <td><font face="Comic Sans" color="white" size="7">Hi There!!!</font>
             </td>
           </tr>
         </table>
@@ -193,7 +193,7 @@ body {
 <br>
 <div class="content">
   <div class="card">
-    <div class="firstinfo"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/mrvanz/128.jpg"/>
+    <div class="firstinfo">{% load static %}<img src="{% static "myPortfolio/unnamed.png" %}"/>
       <div class="profileinfo">
         <h1>I am Ritik Raj</h1>
         <h3>A sophomore at IIT KGP</h3>
